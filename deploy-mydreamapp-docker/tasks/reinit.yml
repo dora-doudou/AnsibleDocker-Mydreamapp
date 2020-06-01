@@ -1,0 +1,6 @@
+---
+- name: Delete MyDreamApp container
+  docker_container:
+    name: mydreamapp
+    state: absent
+  ignore_errors: yes
