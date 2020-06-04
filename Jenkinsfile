@@ -6,7 +6,7 @@ node{
      
     stage('deloy my app docker') {
         sh """
-        ansible-playbook deploy_mydreamapp.yml -i hosts.ini -u ansible
+        ansible-playbook deploy_mydreamapp.yml -i hosts.ini -u root
         """
         }
        
