@@ -6,7 +6,5 @@
     #image: "nginx:latest"
     image: "registry.gitlab.com/dora-doudou/mydreamapp/mydreamapp:latest"
     ports:
-      - "80:4200"
-    #ports:
-     # - "80:80"
+      - "80:80"
 
